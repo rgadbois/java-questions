@@ -6,23 +6,37 @@ import java.util.concurrent.locks.ReentrantLock;
 // http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/7-b147/java/util/concurrent/ArrayBlockingQueue.java#ArrayBlockingQueue
 public class FixedCapacityQueue<E> {
 
-    /** The queued items */
-    final Object[] items;
+    /**
+     * The queued items
+     */
+    final E[] items;
 
-    /** items index for next take, poll, peek or remove */
+    /**
+     * items index for next take, poll, peek or remove
+     */
     int takeIndex;
 
-    /** items index for next put, offer, or add */
+    /**
+     * items index for next put, offer, or add
+     */
     int putIndex;
 
-    /** Number of elements in the queue */
+    /**
+     * Number of elements in the queue
+     */
     int count;
 
-    /** Main lock guarding all access */
+    /**
+     * Main lock guarding all access
+     */
     final ReentrantLock lock;
-    /** Condition for waiting takes */
+    /**
+     * Condition for waiting takes
+     */
     private final Condition notEmpty;
-    /** Condition for waiting puts */
+    /**
+     * Condition for waiting puts
+     */
     private final Condition notFull;
 
     // Internal helper methods
@@ -44,6 +58,11 @@ public class FixedCapacityQueue<E> {
     @SuppressWarnings("unchecked")
     static <E> E cast(Object item) {
         return (E) item;
+    }
+
+    private static void checkNotNull(Object v) {
+        if (v == null)
+            throw new NullPointerException();
     }
 
     /**
@@ -81,10 +100,10 @@ public class FixedCapacityQueue<E> {
     public FixedCapacityQueue(int capacity) {
         if (capacity <= 0)
             throw new IllegalArgumentException();
-        this.items = new Object[capacity];
+        this.items = (E[]) new Object[capacity];
         lock = new ReentrantLock(true); // fair, threads blocked on insertion or removal, are processed in FIFO order
         notEmpty = lock.newCondition();
-        notFull =  lock.newCondition();
+        notFull = lock.newCondition();
     }
 
 /**
@@ -119,6 +138,7 @@ public class FixedCapacityQueue<E> {
  * Inserts the specified element at the tail of this queue, waiting
  * for space to become available if the queue is full.
  */
+
  public void put(E e) throws InterruptedException {
         //checkNotNull(e);
         final ReentrantLock lock = this.lock;
@@ -131,6 +151,8 @@ public class FixedCapacityQueue<E> {
             lock.unlock();
         }
     }
+
+
     public E take() throws InterruptedException {
         final ReentrantLock lock = this.lock;
         lock.lockInterruptibly();
