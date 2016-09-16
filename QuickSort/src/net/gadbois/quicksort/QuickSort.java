@@ -40,10 +40,10 @@ public class QuickSort {
              * from right side which is less then the pivot value. Once the search
              * is done, then we exchange both numbers.
              */
-            while (array[i] < pivot) {
+            while ((i <= upperIndex) && (array[i] < pivot)) {
                 i++;
             }
-            while (array[j] > pivot) {
+            while ((j >= lowwerIndex) && (array[j] > pivot)) {
                 j--;
             }
             if (i <= j) {
@@ -52,7 +52,7 @@ public class QuickSort {
                 j--;
             }
         }
-        if (lowwerIndex < j) {
+        if (j > lowwerIndex) {
             quickSort(lowwerIndex, j);
         }
         if (i < upperIndex) {

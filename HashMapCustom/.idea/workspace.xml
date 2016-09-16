@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c1914d6-361e-4d19-83bb-a6da53bb8a76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../BankIng/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../btree/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankIng/.idea/misc.xml" afterPath="$PROJECT_DIR$/../BankIng/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../btree/.idea/misc.xml" afterPath="$PROJECT_DIR$/../btree/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankIng/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../BankIng/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../btree/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../btree/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BTreeIterator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BTreeIterator/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankIng/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BankIng/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../btree/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../btree/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QuickSort/src/net/gadbois/quicksort/Main.java" afterPath="$PROJECT_DIR$/../QuickSort/src/net/gadbois/quicksort/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QuickSort/src/net/gadbois/quicksort/QuickSort.java" afterPath="$PROJECT_DIR$/../QuickSort/src/net/gadbois/quicksort/QuickSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QuickSort/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../QuickSort/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QuickSort/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../QuickSort/.idea/workspace.xml" />
     </list>
     <ignored path="HashMapCustom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -474,16 +469,16 @@
       <workItem from="1473611543117" duration="1264000" />
       <workItem from="1473613456861" duration="3205000" />
       <workItem from="1473735320306" duration="1245000" />
-      <workItem from="1474058174696" duration="91000" />
+      <workItem from="1474058174696" duration="611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16934000" />
+    <option name="totallyTimeSpent" value="17454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="127" y="24" width="1725" height="1147" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
