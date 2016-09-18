@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17963598-6276-48bd-a784-c8acf7864922" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QuickSort/src/net/gadbois/quicksort/Main.java" afterPath="$PROJECT_DIR$/../QuickSort/src/net/gadbois/quicksort/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QuickSort/src/net/gadbois/quicksort/QuickSort.java" afterPath="$PROJECT_DIR$/../QuickSort/src/net/gadbois/quicksort/QuickSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QuickSort/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../QuickSort/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstNonRepeated/src/com/company/FirstNonRepeated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Fibonacci/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Fibonacci/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProducerConsumer/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ProducerConsumer/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Replace/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Replace/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../StringReverse/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../StringReverse/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BTreeIterator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BTreeIterator/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankIng/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BankIng/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Fibonacci/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Fibonacci/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HashMapCustom/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HashMapCustom/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ObjectSorting/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ObjectSorting/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProducerConsumer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ProducerConsumer/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QuickSort/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../QuickSort/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Replace/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Replace/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../StringReverse/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../StringReverse/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="btree.iws" />
     <ignored path=".idea/workspace.xml" />
