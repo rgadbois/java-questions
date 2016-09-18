@@ -1,2 +1,2 @@
 # java-questions
-Example Java Interview Questsions
+Example Java Interview Questions
